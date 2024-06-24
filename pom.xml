@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Prediction-Provider</module>
+        <module>DataLake-Builder</module>
     </modules>
 
     <properties>
