@@ -6,7 +6,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class WeatherInformation {
-    private final String path = System.getProperty("user.dir") + File.separator + "eventstore";
     private final Connection connection;
 
     public WeatherInformation(String path, String island) {
