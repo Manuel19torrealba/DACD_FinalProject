@@ -17,7 +17,7 @@ public class HotelInformation {
         boolean dataAvailable = false;
 
         if (!tableExists(getTableNameHotel(island))) {
-            return "No hay hoteles disponibles.";
+            return "No hay hoteles disponibles";
         }
 
         String sql = "SELECT h.Name, h.Location, h.Company, h.Price " +
